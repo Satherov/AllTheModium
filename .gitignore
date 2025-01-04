@@ -9,6 +9,7 @@ bin
 # visualstudio
 /.vs/ProjectSettings.json
 /.vs/slnx.sqlite
+/.vscode/
 
 # idea
 out
@@ -24,6 +25,7 @@ build
 # other
 eclipse
 run
+runs
 
 # Files from Forge MDK
 forge*changelog.txt

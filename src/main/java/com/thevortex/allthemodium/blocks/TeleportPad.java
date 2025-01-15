@@ -159,6 +159,22 @@ public class TeleportPad extends Block {
 			}
 		}
 		else if (player.level().dimension().equals(AllTheModium.The_End)) {
+			if(config == 5){
+					ServerLevel targetWorld = player.server.getLevel(LevelRegistry.THE_OTHER);
+					BlockPos targetPos = new BlockPos(Math.round(pos.getX()), Math.round(pos.getY()), Math.round(pos.getZ()));
+
+				if (!targetWorld.getBlockState(targetPos).hasBlockEntity()) {
+
+					LevelHeightAccessor accessor = targetWorld.getChunk(pos).getHeightAccessorForGeneration();
+					int y = targetWorld.getChunkSource().getGenerator().getSpawnHeight(accessor);
+					targetWorld.setBlockAndUpdate(new BlockPos(targetPos.getX(),y,targetPos.getZ()), ModRegistry.TELEPORT_PAD.get().defaultBlockState());
+
+					targetWorld.addParticle(ParticleTypes.SOUL_FIRE_FLAME, pos.getX(), pos.getY(), pos.getZ(), 0, 1, 0);
+					player.teleportTo(targetWorld, targetPos.getX() + 0.5D, y + 0.25D, targetPos.getZ() + 0.5D, 0, 0);
+					return;
+
+				}
+			}
 			ServerLevel targetWorld = player.server.getLevel(LevelRegistry.THE_BEYOND);
 			BlockPos targetPos = new BlockPos(Math.round(pos.getX() *50), Math.round(pos.getY()), Math.round(pos.getZ()*50));
 

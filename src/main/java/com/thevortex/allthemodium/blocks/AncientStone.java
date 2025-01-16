@@ -39,11 +39,19 @@ public class AncientStone extends Block {
 
 
 
-
-
-
-
-
-
-
+	@Override
+    protected float getDestroyProgress(final BlockState state, final Player player, final BlockGetter getter,
+                                       final BlockPos blockPos) {
+        BlockEntity blockEntity = getter.getBlockEntity(blockPos);
+        if (canEntityDestroy(state,getter,blockPos, player)) {
+            int i = player.hasCorrectToolForDrops(state, player.level(), blockPos) ? 250 : 1500;
+            return player.getDigSpeed(state, blockPos) / 2.0F / i;
+        }
+        return 0.0F;
+    }
 }
+
+
+
+
+

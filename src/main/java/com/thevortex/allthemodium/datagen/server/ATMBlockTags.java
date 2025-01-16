@@ -13,6 +13,7 @@ import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
+import org.checkerframework.checker.units.qual.t;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -299,6 +300,56 @@ public class ATMBlockTags extends BlockTagsProvider {
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.VIBRANIUM_ORE.get());
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.OTHER_VIBRANIUM_ORE.get());
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.UNOBTAINIUM_ORE.get());
+        tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.TELEPORT_PAD.get());
+
+        tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).add(ModRegistry.ANCIENT_STONE.get());        
+        tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+        
+        tag(BlockTags.INCORRECT_FOR_STONE_TOOL).add(ModRegistry.ANCIENT_STONE.get());
+        tag(BlockTags.INCORRECT_FOR_STONE_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_STONE_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_STONE_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+        
+        tag(BlockTags.INCORRECT_FOR_IRON_TOOL).add(ModRegistry.ANCIENT_STONE.get());
+        tag(BlockTags.INCORRECT_FOR_IRON_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_IRON_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_IRON_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+
+        tag(BlockTags.INCORRECT_FOR_GOLD_TOOL).add(ModRegistry.ANCIENT_STONE.get());
+        tag(BlockTags.INCORRECT_FOR_GOLD_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_GOLD_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_GOLD_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+    
+        tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL).add(ModRegistry.ANCIENT_STONE.get());
+        tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+        
+        tag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL).add(ModRegistry.ANCIENT_STONE.get());
+        tag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+
+
+        tag(TagRegistry.INCORRECT_FOR_ALLTHEMODIUM_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(TagRegistry.INCORRECT_FOR_ALLTHEMODIUM_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(TagRegistry.INCORRECT_FOR_ALLTHEMODIUM_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+
+        tag(TagRegistry.INCORRECT_FOR_VIBRANIUM_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(TagRegistry.INCORRECT_FOR_VIBRANIUM_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(TagRegistry.INCORRECT_FOR_VIBRANIUM_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+
+        tag(TagRegistry.INCORRECT_FOR_UNOBTAINIUM_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(TagRegistry.INCORRECT_FOR_UNOBTAINIUM_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(TagRegistry.INCORRECT_FOR_UNOBTAINIUM_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+    
+
+        tag(TagRegistry.NEEDS_ALLOY_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
+        tag(TagRegistry.NEEDS_ALLOY_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
+        tag(TagRegistry.NEEDS_ALLOY_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
+        
         
     }
 

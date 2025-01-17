@@ -1,9 +1,6 @@
 {
   "craftable": false,
   "tier": 7,
-  "sortOrder": 2,
-  "fluid": "allthemodium:molten_unobtainium",
-  "fluidPerUnit": 144,
-  "textColor": "#d152e3",
-  "temperature": 9000
+  "sortOrder": 13,
+  "hidden": false
 }

@@ -2,15 +2,15 @@
   "stats": {
     "tconstruct:head": {
       "durability": 7500,
-      "miningSpeed": 18.0,
-      "harvestTier": "allthemodium:vibranium",
-      "attack": 42.0
+      "mining_speed": 18.0,
+      "mining_tier": "allthemodium:vibranium",
+      "melee_attack": 42.0
     },
     "tconstruct:handle": {
       "durability": 3.5,
-      "miningSpeed": 15.0,
-      "attackSpeed": 15.0,
-      "attackDamage": 2.5
+      "mining_speed": 15.0,
+      "melee_speed": 15.0,
+      "melee_damage": 2.5
     },
     "tconstruct:extra": {
       "durability": 2050

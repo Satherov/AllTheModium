@@ -295,8 +295,6 @@ public class ATMBlockTags extends BlockTagsProvider {
 
         tag(TagRegistry.OTHER_PROTECTION).addTag(TagRegistry.BLOCK_ORES);
         tag(TagRegistry.OTHER_PROTECTION).add(Blocks.SPAWNER);
-        
-        tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_PICKAXE).add(ArsCompat.ALLTHEMODIUM_SOURCE_JAR.get());
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.ALLTHEMODIUM_ORE.get());
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.ALLTHEMODIUM_SLATE_ORE.get());
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.VIBRANIUM_ORE.get());

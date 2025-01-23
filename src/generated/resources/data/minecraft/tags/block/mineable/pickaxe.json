@@ -22,7 +22,6 @@
     "allthemodium:unobtainium_allthemodium_alloy_block",
     "allthemodium:vibranium_allthemodium_alloy_block",
     "allthemodium:teleport_pad",
-    "allthemodium:allthemodium_source_jar",
     {
       "id": "allthemodium:allthemodium_source_jar",
       "required": false

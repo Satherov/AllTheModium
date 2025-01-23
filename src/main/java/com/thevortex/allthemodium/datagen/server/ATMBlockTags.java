@@ -1,12 +1,14 @@
 package com.thevortex.allthemodium.datagen.server;
 
 
+import com.thevortex.allthemodium.AllTheModium;
 import com.thevortex.allthemodium.compat.ars_nouveau.ArsCompat;
 import com.thevortex.allthemodium.registry.ModRegistry;
 import com.thevortex.allthemodium.reference.Reference;
 import com.thevortex.allthemodium.registry.TagRegistry;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.Tags;
@@ -350,7 +352,7 @@ public class ATMBlockTags extends BlockTagsProvider {
         tag(TagRegistry.NEEDS_ALLOY_TOOL).add(ModRegistry.ANCIENT_CRACKED_STONE_BRICKS.get());
         tag(TagRegistry.NEEDS_ALLOY_TOOL).add(ModRegistry.ANCIENT_CHISELED_STONE_BRICKS.get());
         
-        
+        tag(net.minecraft.tags.BlockTags.MINEABLE_WITH_PICKAXE).addOptional(ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID,"allthemodium_source_jar" ));
     }
 
 }

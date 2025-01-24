@@ -2,9 +2,10 @@
   "type": "tconstruct:melting_fuel",
   "fluid": {
     "name": "allthemodium:soul_lava",
-    "amount": 250
+    "amount": 50
   },
   "duration": 6000,
+  "rate": 25,
   "temperature": 9999,
   "conditions": [
       {

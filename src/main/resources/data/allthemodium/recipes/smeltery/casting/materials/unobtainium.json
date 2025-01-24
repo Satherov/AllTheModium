@@ -4,7 +4,7 @@
     "tag": "forge:molten_unobtainium",
     "amount": 90
   },
-  "temperature": 1500,
+  "temperature": 9000,
   "output": "allthemodium:unobtainium",
   "conditions": [
     {

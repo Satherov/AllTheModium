@@ -13,6 +13,9 @@ public class Reference {
 	public static String tab() {
 		return String.format("itemGroup.%s", MOD_ID);
 	}
+	public static String tabmek() {
+		return String.format("itemGroup.%s", MOD_ID + "_mek");
+	}
 	public static ResourceLocation atm(String path) {
 		return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
 	}

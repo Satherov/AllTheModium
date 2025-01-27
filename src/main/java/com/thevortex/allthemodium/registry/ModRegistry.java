@@ -396,22 +396,6 @@ public class ModRegistry {
 	public static final DeferredHolder<Item,Item> VIBRANIUM_DUST = ITEMS.register("vibranium_dust", () -> new Dust(new Item.Properties()));
 	public static final DeferredHolder<Item,Item> UNOBTAINIUM_DUST = ITEMS.register("unobtainium_dust", () -> new Dust(new Item.Properties()));
 
-	public static final DeferredHolder<Item,Item> ATM_CLUMP = ITEMS.register("allthemodium_clump", () -> new Clump(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> VIB_CLUMP = ITEMS.register("vibranium_clump", () -> new Clump(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> ONOB_CLUMP = ITEMS.register("unobtainium_clump", () -> new Clump(new Item.Properties()));
-
-	public static final DeferredHolder<Item,Item> ATM_SHARD = ITEMS.register("allthemodium_shard", () -> new Shard(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> VIB_SHARD = ITEMS.register("vibranium_shard", () -> new Shard(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> ONOB_SHARD = ITEMS.register("unobtainium_shard", () -> new Shard(new Item.Properties()));
-
-	public static final DeferredHolder<Item,Item> ATM_DIRTY = ITEMS.register("dirty_allthemodium_dust", () -> new DirtyDust(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> VIB_DIRTY = ITEMS.register("dirty_vibranium_dust", () -> new DirtyDust(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> ONOB_DIRTY = ITEMS.register("dirty_unobtainium_dust", () -> new DirtyDust(new Item.Properties()));
-
-	public static final DeferredHolder<Item,Item> ATM_CRYSTAL = ITEMS.register("allthemodium_crystal", () -> new Crystal(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> VIB_CRYSTAL = ITEMS.register("vibranium_crystal", () -> new Crystal(new Item.Properties()));
-	public static final DeferredHolder<Item,Item> ONOB_CRYSTAL = ITEMS.register("unobtainium_crystal", () -> new Crystal(new Item.Properties()));
-
 	public static final DeferredHolder<Item,Item> UNOBTAINIUM_ALLTHEMODIUM_DUST = ITEMS.register("unobtainium_allthemodium_alloy_dust",() -> new Alloy_Dust(new Item.Properties().fireResistant()));
 	public static final DeferredHolder<Item,Item> UNOBTAINIUM_VIBRANIUM_DUST = ITEMS.register("unobtainium_vibranium_alloy_dust" , () -> new Alloy_Dust(new Item.Properties().fireResistant()));
 	public static final DeferredHolder<Item,Item> VIBRANIUM_ALLTHEMODIUM_DUST = ITEMS.register("vibranium_allthemodium_alloy_dust", ()-> new Alloy_Dust(new Item.Properties().fireResistant()));

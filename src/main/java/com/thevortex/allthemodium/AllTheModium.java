@@ -5,6 +5,7 @@ import com.thevortex.allthemodium.compat.ars_nouveau.ArsClientHandler;
 import com.thevortex.allthemodium.compat.ars_nouveau.ArsCompat;
 import com.thevortex.allthemodium.registry.*;
 import com.thevortex.allthemodium.registry.mek_reg.ATMSlurries;
+import com.thevortex.allthemodium.registry.mek_reg.MekProcReg;
 import com.thevortex.allthemodium.worldgen.structures.ATMStructures;
 
 import net.minecraft.core.registries.Registries;
@@ -100,6 +101,8 @@ public class AllTheModium
 		if(ModList.get().isLoaded("mekanism")) {
 
 			ATMSlurries.SLURRIES.register(modEventBus);
+			MekProcReg.ITEMS.register(modEventBus);
+			MekProcReg.CREATIVE_TABS.register(modEventBus);
 		}
 		if (ModList.get().isLoaded("ars_nouveau")) {
 			ArsCompat.ARS_BLOCKS.register(modEventBus);

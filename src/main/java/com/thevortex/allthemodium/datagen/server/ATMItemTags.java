@@ -3,6 +3,7 @@ package com.thevortex.allthemodium.datagen.server;
 
 import com.thevortex.allthemodium.reference.Reference;
 import com.thevortex.allthemodium.registry.TagRegistry;
+import com.thevortex.allthemodium.registry.mek_reg.MekProcReg;
 import com.thevortex.allthemodium.registry.ModRegistry;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -367,37 +368,37 @@ public class ATMItemTags extends ItemTagsProvider {
         tag(TagRegistry.VIBRANIUM_ROD).add(ModRegistry.VIB_ROD.get());
         tag(TagRegistry.UNOBTAINIUM_ROD).add(ModRegistry.ONOB_ROD.get());
 
-        tag(TagRegistry.ALLTHEMODIUM_SHARD).add(ModRegistry.ATM_SHARD.get());
-        tag(TagRegistry.VIBRANIUM_SHARD).add(ModRegistry.VIB_SHARD.get());
-        tag(TagRegistry.UNOBTAINIUM_SHARD).add(ModRegistry.ONOB_SHARD.get());
+        tag(TagRegistry.ALLTHEMODIUM_SHARD).add(MekProcReg.ATM_SHARD.get());
+        tag(TagRegistry.VIBRANIUM_SHARD).add(MekProcReg.VIB_SHARD.get());
+        tag(TagRegistry.UNOBTAINIUM_SHARD).add(MekProcReg.ONOB_SHARD.get());
 
-        tag(TagRegistry.ALLTHEMODIUM_CLUMP).add(ModRegistry.ATM_CLUMP.get());
-        tag(TagRegistry.VIBRANIUM_CLUMP).add(ModRegistry.VIB_CLUMP.get());
-        tag(TagRegistry.UNOBTAINIUM_CLUMP).add(ModRegistry.ONOB_CLUMP.get());
+        tag(TagRegistry.ALLTHEMODIUM_CLUMP).add(MekProcReg.ATM_CLUMP.get());
+        tag(TagRegistry.VIBRANIUM_CLUMP).add(MekProcReg.VIB_CLUMP.get());
+        tag(TagRegistry.UNOBTAINIUM_CLUMP).add(MekProcReg.ONOB_CLUMP.get());
 
-        tag(TagRegistry.ALLTHEMODIUM_CRYSTAL).add(ModRegistry.ATM_CRYSTAL.get());
-        tag(TagRegistry.VIBRANIUM_CRYSTAL).add(ModRegistry.VIB_CRYSTAL.get());
-        tag(TagRegistry.UNOBTAINIUM_CRYSTAL).add(ModRegistry.ONOB_CRYSTAL.get());
+        tag(TagRegistry.ALLTHEMODIUM_CRYSTAL).add(MekProcReg.ATM_CRYSTAL.get());
+        tag(TagRegistry.VIBRANIUM_CRYSTAL).add(MekProcReg.VIB_CRYSTAL.get());
+        tag(TagRegistry.UNOBTAINIUM_CRYSTAL).add(MekProcReg.ONOB_CRYSTAL.get());
 
-        tag(TagRegistry.ALLTHEMODIUM_DIRTYDUST).add(ModRegistry.ATM_DIRTY.get());
-        tag(TagRegistry.VIBRANIUM_DIRTYDUST).add(ModRegistry.VIB_DIRTY.get());
-        tag(TagRegistry.UNOBTAINIUM_DIRTYDUST).add(ModRegistry.ONOB_DIRTY.get());
+        tag(TagRegistry.ALLTHEMODIUM_DIRTYDUST).add(MekProcReg.ATM_DIRTY.get());
+        tag(TagRegistry.VIBRANIUM_DIRTYDUST).add(MekProcReg.VIB_DIRTY.get());
+        tag(TagRegistry.UNOBTAINIUM_DIRTYDUST).add(MekProcReg.ONOB_DIRTY.get());
 
-        tag(TagRegistry.SHARD).add(ModRegistry.ATM_SHARD.get());
-        tag(TagRegistry.SHARD).add(ModRegistry.VIB_SHARD.get());
-        tag(TagRegistry.SHARD).add(ModRegistry.ONOB_SHARD.get());
+        tag(TagRegistry.SHARD).add(MekProcReg.ATM_SHARD.get());
+        tag(TagRegistry.SHARD).add(MekProcReg.VIB_SHARD.get());
+        tag(TagRegistry.SHARD).add(MekProcReg.ONOB_SHARD.get());
 
-        tag(TagRegistry.CLUMP).add(ModRegistry.ATM_CLUMP.get());
-        tag(TagRegistry.CLUMP).add(ModRegistry.VIB_CLUMP.get());
-        tag(TagRegistry.CLUMP).add(ModRegistry.ONOB_CLUMP.get());
+        tag(TagRegistry.CLUMP).add(MekProcReg.ATM_CLUMP.get());
+        tag(TagRegistry.CLUMP).add(MekProcReg.VIB_CLUMP.get());
+        tag(TagRegistry.CLUMP).add(MekProcReg.ONOB_CLUMP.get());
 
-        tag(TagRegistry.CRYSTAL).add(ModRegistry.ATM_CRYSTAL.get());
-        tag(TagRegistry.CRYSTAL).add(ModRegistry.VIB_CRYSTAL.get());
-        tag(TagRegistry.CRYSTAL).add(ModRegistry.ONOB_CRYSTAL.get());
+        tag(TagRegistry.CRYSTAL).add(MekProcReg.ATM_CRYSTAL.get());
+        tag(TagRegistry.CRYSTAL).add(MekProcReg.VIB_CRYSTAL.get());
+        tag(TagRegistry.CRYSTAL).add(MekProcReg.ONOB_CRYSTAL.get());
 
-        tag(TagRegistry.DIRTYDUST).add(ModRegistry.ATM_DIRTY.get());
-        tag(TagRegistry.DIRTYDUST).add(ModRegistry.VIB_DIRTY.get());
-        tag(TagRegistry.DIRTYDUST).add(ModRegistry.ONOB_DIRTY.get());
+        tag(TagRegistry.DIRTYDUST).add(MekProcReg.ATM_DIRTY.get());
+        tag(TagRegistry.DIRTYDUST).add(MekProcReg.VIB_DIRTY.get());
+        tag(TagRegistry.DIRTYDUST).add(MekProcReg.ONOB_DIRTY.get());
 
     }
 }

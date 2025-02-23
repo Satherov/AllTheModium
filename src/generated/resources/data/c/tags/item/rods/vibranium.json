@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:vibranium_rod"
+    {
+      "id": "allthemodium:vibranium_rod",
+      "required": false
+    }
   ]
 }

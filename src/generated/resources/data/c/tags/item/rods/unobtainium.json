@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:unobtainium_rod"
+    {
+      "id": "allthemodium:unobtainium_rod",
+      "required": false
+    }
   ]
 }

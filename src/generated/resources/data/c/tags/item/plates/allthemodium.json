@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:allthemodium_plate"
+    {
+      "id": "allthemodium:allthemodium_plate",
+      "required": false
+    }
   ]
 }

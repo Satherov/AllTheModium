@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:unobtainium_gear"
+    {
+      "id": "allthemodium:unobtainium_gear",
+      "required": false
+    }
   ]
 }

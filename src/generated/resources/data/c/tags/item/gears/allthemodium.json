@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:allthemodium_gear"
+    {
+      "id": "allthemodium:allthemodium_gear",
+      "required": false
+    }
   ]
 }

@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:allthemodium_rod"
+    {
+      "id": "allthemodium:allthemodium_rod",
+      "required": false
+    }
   ]
 }

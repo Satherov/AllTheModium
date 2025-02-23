@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:vibranium_gear"
+    {
+      "id": "allthemodium:vibranium_gear",
+      "required": false
+    }
   ]
 }

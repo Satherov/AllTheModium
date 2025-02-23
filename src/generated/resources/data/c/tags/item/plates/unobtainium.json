@@ -1,5 +1,8 @@
 {
   "values": [
-    "allthemodium:unobtainium_plate"
+    {
+      "id": "allthemodium:unobtainium_plate",
+      "required": false
+    }
   ]
 }
